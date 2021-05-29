@@ -9,26 +9,26 @@ public class Season
 	{
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("¿ù(1~12)À» ÀÔ·ÂÇÏ½Ã¿À:");
-		int month = scanner.nextInt(); // Á¤¼ö·Î ¿ù ÀÔ·Â
+		System.out.print("ì›”(1~12)ì„ ì…ë ¥í•˜ì‹œì˜¤:");
+		int month = scanner.nextInt(); // ì •ìˆ˜ë¡œ ì›” ì…ë ¥
 		switch(month)
 		{
 		case 3:
 		case 4:
 		case 5:
-			System.out.println("º½ÀÔ´Ï´Ù.");
+			System.out.println("ë´„ì…ë‹ˆë‹¤.");
 			break;
 		case 6: case 7: case 8:
-			System.out.println("¿©¸§ÀÔ´Ï´Ù.");
+			System.out.println("ì—¬ë¦„ì…ë‹ˆë‹¤.");
 			break;
 		case 9: case 10: case 11:
-			System.out.println("°¡À»ÀÔ´Ï´Ù.");
+			System.out.println("ê°€ì„ì…ë‹ˆë‹¤.");
 			break;
 		case 12: case 1: case 2:
-			System.out.println("°Ü¿ïÀÔ´Ï´Ù.");
+			System.out.println("ê²¨ìš¸ì…ë‹ˆë‹¤.");
 			break;
 		default:
-			System.out.println("Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù.");
+			System.out.println("ì˜ëª»ëœ ì…ë ¥ì…ë‹ˆë‹¤.");
 		}
 		scanner.close();
 	}
