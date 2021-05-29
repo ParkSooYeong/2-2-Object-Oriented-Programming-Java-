@@ -7,11 +7,11 @@ public class TypeConversion
 	{
 		byte b = 127;
 		int i = 100;
-		System.out.println(b+i); // b°¡ int Å¸ÀÔÀ¸·Î ÀÚµ¿ º¯È¯
+		System.out.println(b+i); // bê°€ int íƒ€ì…ìœ¼ë¡œ ìë™ ë³€í™˜
 		System.out.println(10/4);
-		System.out.println(10.0/4); // 4°¡ 4.0À¸·Î ÀÚµ¿ º¯È¯
-		System.out.println((char)0x12340041); // ÇÏÀ§ 2¹ÙÀÌÆ®, 0x0041Àº ¹®ÀÚ 'A'
-		System.out.println((byte)(b+i)); // 227Àº 16Áø¼ö·Î 0xE3, Áï -29
+		System.out.println(10.0/4); // 4ê°€ 4.0ìœ¼ë¡œ ìë™ ë³€í™˜
+		System.out.println((char)0x12340041); // í•˜ìœ„ 2ë°”ì´íŠ¸, 0x0041ì€ ë¬¸ì 'A'
+		System.out.println((byte)(b+i)); // 227ì€ 16ì§„ìˆ˜ë¡œ 0xE3, ì¦‰ -29
 		System.out.println((int)2.9 + 1.8);
 		System.out.println((int)(2.9 + 1.8));
 		System.out.println((int)2.9 + (int)1.8);
