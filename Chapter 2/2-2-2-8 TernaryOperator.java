@@ -7,6 +7,6 @@ public class TernaryOperator
 	{
 		int a = 3, b = 5;
 		
-		System.out.println("µÎ ¼öÀÇ Â÷´Â " + ((a>b)?(a-b):(b-a)));
+		System.out.println("ÂµÃŽ Â¼Ã¶Ã€Ã‡ Ã‚Ã·Â´Ã‚ " + ((a>b)?(a-b):(b-a)));
 	}
 }
