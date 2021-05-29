@@ -5,9 +5,9 @@ public class Var
 {
 	public static void main(String[] args)
 	{
-		var price = 200; // price´Â int Å¸ÀÔÀ¸·Î °áÁ¤
-		var name = "sooyoung"; // nameÀº String Å¸ÀÔÀ¸·Î °áÁ¤
-		var pi = 3.14; // pi´Â double Å¸ÀÔÀ¸·Î °áÁ¤
+		var price = 200; // priceëŠ” int íƒ€ì…ìœ¼ë¡œ ê²°ì •
+		var name = "sooyoung"; // nameì€ String íƒ€ì…ìœ¼ë¡œ ê²°ì •
+		var pi = 3.14; // piëŠ” double íƒ€ì…ìœ¼ë¡œ ê²°ì •
 		
 		System.out.println("price = " + (price + 1000));
 		System.out.println("name = " + name);
