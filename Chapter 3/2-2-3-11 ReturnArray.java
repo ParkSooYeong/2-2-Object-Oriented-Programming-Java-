@@ -3,20 +3,20 @@
 
 public class ReturnArray
 {
-	static int[] makeArray() // ÀÏÂ÷¿ø Á¤¼ö ¹è¿­ ¸®ÅÏ
+	static int[] makeArray() // ì¼ì°¨ì› ì •ìˆ˜ ë°°ì—´ ë¦¬í„´
 	{
-		int temp[] = new int[4]; // ¹è¿­ »ı¼º
+		int temp[] = new int[4]; // ë°°ì—´ ìƒì„±
 		for(int i=0; i<temp.length; i++)
 		{
-			temp[i] = i; // ¹è¿­ ÃÊ±âÈ­, 0, 1, 2, 3
+			temp[i] = i; // ë°°ì—´ ì´ˆê¸°í™”, 0, 1, 2, 3
 		}
 		return temp;
 	}
 	
 	public static void main(String[] args)
 	{
-		int intArray[]; // ¹è¿­ ·¹ÆÛ·±½º ¼±¾ğ
-		intArray = makeArray(); // ¸Ş¼Òµå°¡ ¸®ÅÏÇÑ ¹è¿­ ÂüÁ¶
+		int intArray[]; // ë°°ì—´ ë ˆí¼ëŸ°ìŠ¤ ì„ ì–¸
+		intArray = makeArray(); // ë©”ì†Œë“œê°€ ë¦¬í„´í•œ ë°°ì—´ ì°¸ì¡°
 		for(int i=0; i<intArray.length; i++)
 		{
 			System.out.print(intArray[i] + " ");
