@@ -9,25 +9,25 @@ public class InputException
 	public static void main(String[] args)
 	{
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Á¤¼ö 3°³¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println("ì •ìˆ˜ 3ê°œë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		int sum = 0, n = 0;
 		for(int i=0; i<3; i++)
 		{
 			System.out.print(i+">>");
 			try
 			{
-				n = scanner.nextInt(); // Á¤¼ö ÀÔ·Â
+				n = scanner.nextInt(); // ì •ìˆ˜ ì…ë ¥
 			}
 			catch(InputMismatchException e)
 			{
-				System.out.println("Á¤¼ö°¡ ¾Æ´Ï¿¡¿ä. ´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä.");
-				scanner.next(); // ÀÔ·Â ½ºÆ®¸²¿¡ ÀÖ´Â Á¤¼ö°¡ ¾Æ´Ñ ÅäÅ«À» ¹ö¸°´Ù.
-				i--; // ÀÎµ¦½º°¡ Áõ°¡ÇÏÁö ¾Êµµ·Ï ¹Ì¸® °¨¼Ò
-				continue; // ´ÙÀ½ ·çÇÁ
+				System.out.println("ì •ìˆ˜ê°€ ì•„ë‹ˆì—ìš”. ë‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”.");
+				scanner.next(); // ì…ë ¥ ìŠ¤íŠ¸ë¦¼ì— ìˆëŠ” ì •ìˆ˜ê°€ ì•„ë‹Œ í† í°ì„ ë²„ë¦°ë‹¤.
+				i--; // ì¸ë±ìŠ¤ê°€ ì¦ê°€í•˜ì§€ ì•Šë„ë¡ ë¯¸ë¦¬ ê°ì†Œ
+				continue; // ë‹¤ìŒ ë£¨í”„
 			}
-			sum += n; // ÇÕÇÏ±â
+			sum += n; // í•©í•˜ê¸°
 		}
-		System.out.println("ÇÕÀº " + sum);
+		System.out.println("í•©ì€ " + sum);
 		scanner.close();
 	}
 }
