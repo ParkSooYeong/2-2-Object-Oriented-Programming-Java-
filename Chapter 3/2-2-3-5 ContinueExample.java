@@ -9,21 +9,21 @@ public class ContinueExample
 	{
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Á¤¼ö¸¦ 5°³ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ì •ìˆ˜ë¥¼ 5ê°œ ìž…ë ¥í•˜ì„¸ìš”.");
 		int sum = 0;
 		for(int i=0; i<5; i++)
 		{
-			int n = scanner.nextInt(); // Å°º¸µå¿¡¼­ Á¤¼ö ÀÔ·Â
+			int n = scanner.nextInt(); // í‚¤ë³´ë“œì—ì„œ ì •ìˆ˜ ìž…ë ¥
 			if(n<=0)
 			{
-				continue; // 0ÀÌ³ª À½¼öÀÎ °æ¿ì ´õÇÏÁö ¾Ê°í ´ÙÀ½ ¹Ýº¹À¸·Î ÁøÇà
+				continue; // 0ì´ë‚˜ ìŒìˆ˜ì¸ ê²½ìš° ë”í•˜ì§€ ì•Šê³  ë‹¤ìŒ ë°˜ë³µìœ¼ë¡œ ì§„í–‰
 			}
 			else
 			{
-				sum += n; // ¾ç¼öÀÎ °æ¿ì µ¡¼À
+				sum += n; // ì–‘ìˆ˜ì¸ ê²½ìš° ë§ì…ˆ
 			}
 		}
-		System.out.println("¾ç¼öÀÇ ÇÕÀº " + sum);
+		System.out.println("ì–‘ìˆ˜ì˜ í•©ì€ " + sum);
 		
 		scanner.close();
 	}
