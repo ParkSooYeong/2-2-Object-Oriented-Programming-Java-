@@ -9,20 +9,20 @@ public class ArrayLength
 	{
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("5°³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
-		int intArray[] = new int[5]; // ¹è¿­ÀÇ ¼±¾ğ°ú »ı¼º
+		System.out.println("5ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
+		int intArray[] = new int[5]; // ë°°ì—´ì˜ ì„ ì–¸ê³¼ ìƒì„±
 		double sum = 0.0;
 		for(int i=0; i<intArray.length; i++)
 		{
-			intArray[i] = scanner.nextInt(); // Å°º¸µå¿¡¼­ ÀÔ·Â¹ŞÀº Á¤¼ö ÀúÀå
+			intArray[i] = scanner.nextInt(); // í‚¤ë³´ë“œì—ì„œ ì…ë ¥ë°›ì€ ì •ìˆ˜ ì €ì¥
 		}
 		
 		for(int i=0; i<intArray.length; i++)
 		{
-			sum += intArray[i]; // ¹è¿­¿¡ ÀúÀåµÈ Á¤¼ö °ªÀ» ´õÇÏ±â
+			sum += intArray[i]; // ë°°ì—´ì— ì €ì¥ëœ ì •ìˆ˜ ê°’ì„ ë”í•˜ê¸°
 		}
 		
-		System.out.print("Æò±ÕÀº " + sum/intArray.length);
+		System.out.print("í‰ê· ì€ " + sum/intArray.length);
 		
 		scanner.close();
 	}
