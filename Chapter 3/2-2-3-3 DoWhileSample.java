@@ -9,8 +9,8 @@ public class DoWhileSample
 		
 		do
 		{
-			System.out.print(a); // ¹®ÀÚ Ãâ·Â
-			a = (char)(a+1); // ¾ËÆÄºªÀÇ °æ¿ì 1À» ´õÇÏ¸é ´ÙÀ½ ¹®ÀÚÀÇ ÄÚµå °ª
+			System.out.print(a); // ë¬¸ì ì¶œë ¥
+			a = (char)(a+1); // ì•ŒíŒŒë²³ì˜ ê²½ìš° 1ì„ ë”í•˜ë©´ ë‹¤ìŒ ë¬¸ìì˜ ì½”ë“œ ê°’
 		} while(a<='z');
 	}
 }
