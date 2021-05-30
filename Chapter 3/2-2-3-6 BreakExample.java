@@ -9,17 +9,17 @@ public class BreakExample
 	{
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("exit¸¦ ÀÔ·ÂÇÏ¸é Á¾·áÇÕ´Ï´Ù.");
+		System.out.println("exitë¥¼ ì…ë ¥í•˜ë©´ ì¢…ë£Œí•©ë‹ˆë‹¤.");
 		while(true)
 		{
 			System.out.print(">>");
 			String text = scanner.nextLine();
-			if(text.equals("exit")) // "exit"ÀÌ ÀÔ·ÂµÇ¸é ¹İº¹ Á¾·á
+			if(text.equals("exit")) // "exit"ì´ ì…ë ¥ë˜ë©´ ë°˜ë³µ ì¢…ë£Œ
 			{
-				break; // while ¹®À» ¹ş¾î³²
+				break; // while ë¬¸ì„ ë²—ì–´ë‚¨
 			}
 		}
-		System.out.println("Á¾·áÇÕ´Ï´Ù.");
+		System.out.println("ì¢…ë£Œí•©ë‹ˆë‹¤.");
 		
 		scanner.close();
 	}
