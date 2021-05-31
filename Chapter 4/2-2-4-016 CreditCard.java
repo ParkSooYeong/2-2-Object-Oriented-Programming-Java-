@@ -1,8 +1,8 @@
-/* SKU CoE ITE : Object-Oriented Programming 3ÁÖÂ÷ ½Ç½À3 - 20170910 ¹Ú¼ö¿µ */
+/* SKU CoE ITE : Object-Oriented Programming 3ì£¼ì°¨ ì‹¤ìŠµ3 - 20170910 ë°•ìˆ˜ì˜ */
 
-package third; //ÆĞÅ°Áö ÀÌ¸§ third
+package third; //íŒ¨í‚¤ì§€ ì´ë¦„ third
 
-public class CreditCard //Å¬·¡½º CreditCard ¼±¾ğ
+public class CreditCard //í´ë˜ìŠ¤ CreditCard ì„ ì–¸
 {
 	int number;
 	String name;
