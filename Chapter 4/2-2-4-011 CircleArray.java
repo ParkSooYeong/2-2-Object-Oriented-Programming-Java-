@@ -1,12 +1,12 @@
-/* SKU CoE ITE : Object-Oriented Programming ¿¹Á¦ 4-6 - 20170910 ¹Ú¼ö¿µ */
+/* SKU CoE ITE : Object-Oriented Programming ì˜ˆì œ 4-6 - 20170910 ë°•ìˆ˜ì˜ */
 
-package third; //ÆĞÅ°Áö ÀÌ¸§ third
+package third; //íŒ¨í‚¤ì§€ ì´ë¦„ third
 
-public class CircleArray //Å¬·¡½º CircleArray ¼±¾ğ
+public class CircleArray //í´ë˜ìŠ¤ CircleArray ì„ ì–¸
 {
 	public static void main(String args[])
 	{
-		Circle[] c; //CircleÇü ¹è¿­ c ¼±¾ğ
+		Circle[] c; //Circleí˜• ë°°ì—´ c ì„ ì–¸
 		c = new Circle[5];
 		
 		for(int i=0; i<c.length; i++)
