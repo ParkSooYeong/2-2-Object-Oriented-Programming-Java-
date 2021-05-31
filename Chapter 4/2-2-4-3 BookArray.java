@@ -7,7 +7,7 @@ class Book
 {
 	String title, author;
 	
-	public Book(String title, String author) // »ı¼ºÀÚ
+	public Book(String title, String author) // ìƒì„±ì
 	{
 		this.title = title;
 		this.author = author;
@@ -23,11 +23,11 @@ public class BookArray
 		Scanner scanner = new Scanner(System.in);
 		for(int i=0; i<book.length; i++) // book.length = 2
 		{
-			System.out.print("Á¦¸ñ>>");
+			System.out.print("ì œëª©>>");
 			String title = scanner.nextLine();
-			System.out.print("ÀúÀÚ>>");
+			System.out.print("ì €ì>>");
 			String author = scanner.nextLine();
-			book[i] = new Book(title, author); // ¹è¿­ ¿ø¼Ò °´Ã¼ »ı¼º
+			book[i] = new Book(title, author); // ë°°ì—´ ì›ì†Œ ê°ì²´ ìƒì„±
 		}
 		
 		for(int i=0; i<book.length; i++)
