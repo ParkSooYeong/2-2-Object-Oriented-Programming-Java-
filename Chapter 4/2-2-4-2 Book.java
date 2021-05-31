@@ -11,16 +11,16 @@ public class Book
 		System.out.println(title + " " + author);
 	}
 	
-	public Book() // »ı¼ºÀÚ
+	public Book() // ìƒì„±ì
 	{
 		this("", "");
-		System.out.println("»ı¼ºÀÚ È£ÃâµÊ");
+		System.out.println("ìƒì„±ì í˜¸ì¶œë¨");
 	}
-	public Book(String title) // »ı¼ºÀÚ
+	public Book(String title) // ìƒì„±ì
 	{
-		this(title, "ÀÛÀÚ¹Ì»ó");
+		this(title, "ì‘ìë¯¸ìƒ");
 	}
-	public Book(String title, String author) // »ı¼ºÀÚ
+	public Book(String title, String author) // ìƒì„±ì
 	{
 		this.title = title;
 		this.author = author;
@@ -28,8 +28,8 @@ public class Book
 	
 	public static void main(String[] args)
 	{
-		Book littlePrince = new Book("¾î¸°¿ÕÀÚ", "»ıÅØÁãÆä¸®"); // »ı¼ºÀÚ Book(String t, String a) È£Ãâ
-		Book loveStory = new Book("ÃáÇâÀü"); // »ı¼ºÀÚ Book(String t) È£Ãâ
+		Book littlePrince = new Book("ì–´ë¦°ì™•ì", "ìƒí…ì¥í˜ë¦¬"); // ìƒì„±ì Book(String t, String a) í˜¸ì¶œ
+		Book loveStory = new Book("ì¶˜í–¥ì „"); // ìƒì„±ì Book(String t) í˜¸ì¶œ
 		Book emptyBook = new Book();
 		System.out.println(littlePrince.title + " " + littlePrince.author);
 		System.out.println(loveStory.title + " " + loveStory.author);
