@@ -1,8 +1,8 @@
-/* SKU CoE ITE : Object-Oriented Programming Exercise - 20170910 ¹Ú¼ö¿µ */
+/* SKU CoE ITE : Object-Oriented Programming Exercise - 20170910 ë°•ìˆ˜ì˜ */
 
-package third; //ÆĞÅ°Áö ÀÌ¸§ third
+package third; //íŒ¨í‚¤ì§€ ì´ë¦„ third
 
-public class Goods //Å¬·¡½º Goods ¼±¾ğ
+public class Goods //í´ë˜ìŠ¤ Goods ì„ ì–¸
 {
 	String name;
 	int price, numberOfStock;
