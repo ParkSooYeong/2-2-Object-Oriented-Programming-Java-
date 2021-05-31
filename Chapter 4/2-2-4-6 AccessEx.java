@@ -5,7 +5,7 @@ class Sample
 {
 	public int a;
 	public int b;
-	int c; // µğÆúÆ® Á¢±Ù ÁöÁ¤
+	int c; // ÂµÃ°Ã†ÃºÃ†Â® ÃÂ¢Â±Ã™ ÃÃ¶ÃÂ¤
 }
 
 public class AccessEx
