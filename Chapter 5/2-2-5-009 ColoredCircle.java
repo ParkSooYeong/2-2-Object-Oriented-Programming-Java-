@@ -13,6 +13,6 @@ public class ColoredCircle extends Circle
 	
 	void showColor()
 	{
-		System.out.print("¹İÁö¸§ÀÌ " + radius + "ÀÎ " + color + " ¿ø ÀÔ´Ï´Ù.");
+		System.out.print("Â¹ÃÃÃ¶Â¸Â§Ã€ÃŒ " + radius + "Ã€Ã " + color + " Â¿Ã¸ Ã€Ã”Â´ÃÂ´Ã™.");
 	}
 }
