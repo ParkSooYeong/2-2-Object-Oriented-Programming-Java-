@@ -3,15 +3,15 @@
 
 public class GoodCalc extends Calculator
 {
-	public int add(int a, int b) // Ãß»ó ¸Ş¼Òµå ±¸Çö
+	public int add(int a, int b) // ì¶”ìƒ ë©”ì†Œë“œ êµ¬í˜„
 	{
 		return a + b;
 	}
-	public int subtract(int a, int b) // Ãß»ó ¸Ş¼Òµå ±¸Çö
+	public int subtract(int a, int b) // ì¶”ìƒ ë©”ì†Œë“œ êµ¬í˜„
 	{
 		return a - b;
 	}
-	public double average(int[] a) // Ãß»ó ¸Ş¼Òµå ±¸Çö
+	public double average(int[] a) // ì¶”ìƒ ë©”ì†Œë“œ êµ¬í˜„
 	{
 		double sum = 0;
 		for(int i=0; i<a.length; i++)
