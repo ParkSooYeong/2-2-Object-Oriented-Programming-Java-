@@ -11,6 +11,6 @@ public class Circle
 	
 	void show()
 	{
-		System.out.println("¹İÁö¸§ÀÌ " + radius + "ÀÎ ¿ø ÀÔ´Ï´Ù.");
+		System.out.println("Â¹ÃÃÃ¶Â¸Â§Ã€ÃŒ " + radius + "Ã€Ã Â¿Ã¸ Ã€Ã”Â´ÃÂ´Ã™.");
 	}
 }
