@@ -6,7 +6,7 @@ public class CircleTest
 	{
 		Circle c1 = new Circle(5);
 		
-		ColoredCircle c2 = new ColoredCircle(10, "�ʷϻ�");
+		ColoredCircle c2 = new ColoredCircle(10, "ĂĘˇĎťö");
 		
 		c1.show();
 		c2.showColor();
