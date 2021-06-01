@@ -7,7 +7,7 @@ public class SmartPhoneEx
 		phone.printLogo();
 		phone.sendCall();
 		
-		System.out.println("3°ú 5¸¦ ´õÇÏ¸é " + phone.calculate(3,  5));
+		System.out.println("3Â°Ãº 5Â¸Â¦ Â´ÃµÃ‡ÃÂ¸Ã© " + phone.calculate(3,  5));
 		
 		phone.schedule();
 	}
