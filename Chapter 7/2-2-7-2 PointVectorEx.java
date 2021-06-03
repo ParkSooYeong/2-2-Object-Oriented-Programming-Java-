@@ -21,20 +21,20 @@ public class PointVectorEx
 {
 	public static void main(String[] args)
 	{
-		Vector<Point> v = new Vector<Point>(); // Point °´Ã¼¸¦ ¿ä¼Ò·Î ´Ù·ç´Â º¤ÅÍ »ı¼º
+		Vector<Point> v = new Vector<Point>(); // Point ê°ì²´ë¥¼ ìš”ì†Œë¡œ ë‹¤ë£¨ëŠ” ë²¡í„° ìƒì„±
 		
-		// 3°³ÀÇ Point °´Ã¼ »ğÀÔ
+		// 3ê°œì˜ Point ê°ì²´ ì‚½ì…
 		v.add(new Point(2, 3));
 		v.add(new Point(-5, 20));
 		v.add(new Point(30, -8));
 		
-		v.remove(1); // ÀÎµ¦½º 1ÀÇ Point(-5, 20) °´Ã¼ »èÁ¦
+		v.remove(1); // ì¸ë±ìŠ¤ 1ì˜ Point(-5, 20) ê°ì²´ ì‚­ì œ
 		
-		// º¤ÅÍÀÇ ÀÖ´Â Point °´Ã¼ ¸ğµÎ °Ë»öÇÏ¿© Ãâ·Â
+		// ë²¡í„°ì˜ ìˆëŠ” Point ê°ì²´ ëª¨ë‘ ê²€ìƒ‰í•˜ì—¬ ì¶œë ¥
 		for(int i=0; i<v.size(); i++)
 		{
-			Point p = v.get(i); // º¤ÅÍÀÇ i ¹øÂ° Point °´Ã¼ ¾ò¾î³»±â
-			System.out.println(p); // p.toString()À» ÀÌ¿ëÇÏ¿© °´Ã¼ p Ãâ·Â
+			Point p = v.get(i); // ë²¡í„°ì˜ i ë²ˆì§¸ Point ê°ì²´ ì–»ì–´ë‚´ê¸°
+			System.out.println(p); // p.toString()ì„ ì´ìš©í•˜ì—¬ ê°ì²´ p ì¶œë ¥
 		}
 	}
 }
