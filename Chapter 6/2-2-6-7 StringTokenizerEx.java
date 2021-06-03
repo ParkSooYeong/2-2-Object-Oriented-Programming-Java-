@@ -10,12 +10,12 @@ public class StringTokenizerEx
 		String query = "name=sooyoung&addr=seoul&age=24";
 		StringTokenizer st = new StringTokenizer(query, "&");
 		
-		int n = st.countTokens(); // ºÐ¸®µÈ ÅäÅ« °³¼ö
-		System.out.println("ÅäÅ« °³¼ö = " + n);
-		while(st.hasMoreTokens()) // for(int i=0; i<n; i++)¿Í µ¿ÀÏ
+		int n = st.countTokens(); // ë¶„ë¦¬ëœ í† í° ê°œìˆ˜
+		System.out.println("í† í° ê°œìˆ˜ = " + n);
+		while(st.hasMoreTokens()) // for(int i=0; i<n; i++)ì™€ ë™ì¼
 		{
 			String token = st.nextToken();
-			System.out.println(token); // ÅäÅ« Ãâ·Â
+			System.out.println(token); // í† í° ì¶œë ¥
 		}
 	}
 }
