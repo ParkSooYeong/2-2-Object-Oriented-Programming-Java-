@@ -11,7 +11,7 @@ class Point2
 	}
 	public boolean equals(Object obj)
 	{
-		Point2 p = (Point2)obj; // obj¸¦ Point Å¸ÀÔÀ¸·Î ´Ù¿î Ä³½ºÆÃ
+		Point2 p = (Point2)obj; // objÂ¸Â¦ Point Ã…Â¸Ã€Ã”Ã€Â¸Â·ÃŽ Â´Ã™Â¿Ã® Ã„Â³Â½ÂºÃ†Ãƒ
 		if(x == p.x && y == p.y)
 		{
 			return true;
