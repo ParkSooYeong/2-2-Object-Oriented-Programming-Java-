@@ -9,9 +9,9 @@ class Rect
 		this.width = width;
 		this.height = height;
 	}
-	public boolean equals(Object obj) // »ç°¢Çü ¸éÀû ºñ±³
+	public boolean equals(Object obj) // ì‚¬ê°í˜• ë©´ì  ë¹„êµ
 	{
-		Rect p = (Rect)obj; // obj¸¦ Rect·Î ´Ù¿î Ä³½ºÆÃ
+		Rect p = (Rect)obj; // objë¥¼ Rectë¡œ ë‹¤ìš´ ìºìŠ¤íŒ…
 		if(width*height == p.width*p.height)
 		{
 			return true;
@@ -27,9 +27,9 @@ public class RectEx
 {
 	public static void main(String[] args)
 	{
-		Rect a = new Rect(2,3); // ¸éÀû 6
-		Rect b = new Rect(3,2); // ¸éÀû 6
-		Rect c = new Rect(3,4); // ¸éÀû 12
+		Rect a = new Rect(2,3); // ë©´ì  6
+		Rect b = new Rect(3,2); // ë©´ì  6
+		Rect c = new Rect(3,4); // ë©´ì  12
 		if(a.equals(b))
 		{
 			System.out.println("a is equal to b");
