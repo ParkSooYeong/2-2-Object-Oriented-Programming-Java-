@@ -16,8 +16,8 @@ public class ObjectPropertyEx
 	public static void main(String[] args)
 	{
 		Point p = new Point(2,3);
-		System.out.println(p.getClass().getName()); // Å¬·¡½º ÀÌ¸§
-		System.out.println(p.hashCode()); // ÇØ½Ã ÄÚµå °ª
-		System.out.println(p.toString()); // °´Ã¼ÀÇ ¹®ÀÚ¿­
+		System.out.println(p.getClass().getName()); // í´ë˜ìŠ¤ ì´ë¦„
+		System.out.println(p.hashCode()); // í•´ì‹œ ì½”ë“œ ê°’
+		System.out.println(p.toString()); // ê°ì²´ì˜ ë¬¸ìì—´
 	}
 }
