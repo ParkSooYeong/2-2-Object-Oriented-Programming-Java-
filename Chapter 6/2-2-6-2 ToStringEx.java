@@ -21,6 +21,6 @@ public class ToStringEx
 	{
 		Point1 a = new Point1(2,3);
 		System.out.println(a.toString());
-		System.out.println(a); // a´Â a.toString()À¸·Î ÀÚµ¿ º¯È¯µÊ
+		System.out.println(a); // aÂ´Ã‚ a.toString()Ã€Â¸Â·ÃŽ Ã€ÃšÂµÂ¿ ÂºÂ¯ÃˆÂ¯ÂµÃŠ
 	}
 }
