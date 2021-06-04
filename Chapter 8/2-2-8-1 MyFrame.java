@@ -8,9 +8,9 @@ public class MyFrame extends JFrame
 {
 	public MyFrame()
 	{
-		setTitle("300x300 ╫╨ю╝ га╥╧юс ╦╦╣И╠Б");
-		setSize(300,300); // га╥╧юс е╘╠Б 300x300
-		setVisible(true); // га╥╧юс цБ╥б
+		setTitle("300x300 Л┼╓Л°≥ М■└К═┬Л·└ К╖▄К⌠╓Й╦╟");
+		setSize(300,300); // М■└К═┬Л·└ М│╛Й╦╟ 300x300
+		setVisible(true); // М■└К═┬Л·└ Л╤°К═╔
 	}
 	
 	public static void main(String[] args)
