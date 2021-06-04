@@ -8,8 +8,8 @@ public class WindowEx1 extends JFrame
 	WindowEx1()
 	{
 		setTitle("Hello, Java"); //title
-		setSize(300,300); //га╥╧юс е╘╠Б 300x300
-		setVisible(true); //га╥╧юс цБ╥б
+		setSize(300,300); //ц┤ц│б╥б╧ц─ц⌠ ц┘б╘б╠ц╒ 300x300
+		setVisible(true); //ц┤ц│б╥б╧ц─ц⌠ ц┐ц╒б╥ц┌
 		
 		Container contentPane = getContentPane();
 		JLabel label = new JLabel("Hello, Java");
