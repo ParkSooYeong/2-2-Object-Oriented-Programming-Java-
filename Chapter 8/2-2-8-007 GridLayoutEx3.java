@@ -6,18 +6,18 @@ public class GridLayoutEx3 extends JFrame
 {
 	public GridLayoutEx3()
 	{
-		super("GridLayout ¿¹Á¦");
+		super("GridLayout ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container contentPane = getContentPane();
 		
-		// 1x10ÀÇ GridLayout ¹èÄ¡°ü¸®ÀÚ
+		// 1x10ì˜ GridLayout ë°°ì¹˜ê´€ë¦¬ì
 		contentPane.setLayout(new GridLayout(1, 10));
 		
-		for(int i=0; i<10; i++) // 10°³ÀÇ ¹öÆ° ºÎÂø
+		for(int i=0; i<10; i++) // 10ê°œì˜ ë²„íŠ¼ ë¶€ì°©
 		{
-			String text = Integer.toString(i); // i¸¦ ¹®ÀÚ¿­·Î º¯È¯
+			String text = Integer.toString(i); // ië¥¼ ë¬¸ìì—´ë¡œ ë³€í™˜
 			JButton button = new JButton(text);
-			contentPane.add(button); // ÄÁÅÙÆ®ÆÒ¿¡ ¹öÆ° ºÎÂø
+			contentPane.add(button); // ì»¨í…íŠ¸íŒ¬ì— ë²„íŠ¼ ë¶€ì°©
 		}
 		
 		setSize(500, 200);
