@@ -7,10 +7,10 @@ public class ContentPaneEx extends JFrame
 {
 	ContentPaneEx()
 	{
-		setTitle("ContetnPane°ú JFrame"); //ÇÁ·¹ÀÓÀÇ Å¸ÀÌÆ² ´Ş±â
+		setTitle("ContetnPaneê³¼ JFrame"); //í”„ë ˆì„ì˜ íƒ€ì´í‹€ ë‹¬ê¸°
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		Container contentPane = getContentPane(); //ÄÁÅÙÆ®ÆÒ °¡Á®¿À±â
-		contentPane.setBackground(Color.ORANGE); //ÄÁÅÙÆ®ÆÒ¿¡ FlowLayout
+		Container contentPane = getContentPane(); //ì»¨í…íŠ¸íŒ¬ ê°€ì ¸ì˜¤ê¸°
+		contentPane.setBackground(Color.ORANGE); //ì»¨í…íŠ¸íŒ¬ì— FlowLayout
 		contentPane.setLayout(new FlowLayout());
 		
 		JButton btnOK = new JButton("OK");
@@ -23,8 +23,8 @@ public class ContentPaneEx extends JFrame
 		btnI.setBackground(Color.BLUE);
 		contentPane.add(btnI);
 		
-		setSize(300,150); //ÇÁ·¹ÀÓ Å©±â 300x150 ¼³Á¤
-		setVisible(true); //È­¸é¿¡ ÇÁ·¹ÀÓ Ãâ·Â
+		setSize(300,150); //í”„ë ˆì„ í¬ê¸° 300x150 ì„¤ì •
+		setVisible(true); //í™”ë©´ì— í”„ë ˆì„ ì¶œë ¥
 	}
 	
 	public static void main(String[] args)
