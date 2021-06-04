@@ -15,13 +15,13 @@ public class GridLayoutEx2 extends JFrame
 		Container c = getContentPane();
 		
 		c.setLayout(grid);
-		c.add(new JLabel("ÀÌ¸§"));
+		c.add(new JLabel("Ã€ÃŒÂ¸Â§"));
 		c.add(new JTextField(""));
-		c.add(new JLabel("ÇĞ¹ø"));
+		c.add(new JLabel("Ã‡ÃÂ¹Ã¸"));
 		c.add(new JTextField(""));
-		c.add(new JLabel("ÇĞ°ú"));
+		c.add(new JLabel("Ã‡ÃÂ°Ãº"));
 		c.add(new JTextField(""));
-		c.add(new JLabel("°ú¸ñ"));
+		c.add(new JLabel("Â°ÃºÂ¸Ã±"));
 		c.add(new JTextField(""));
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
