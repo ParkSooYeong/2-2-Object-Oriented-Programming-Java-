@@ -10,7 +10,7 @@ public class AnonymousClassListener extends JFrame
 {
 	public AnonymousClassListener()
 	{
-		setTitle("Action ÀÌº¥Æ® ¸®½º³Ê ÀÛ¼º");
+		setTitle("Action ì´ë²¤íŠ¸ ë¦¬ìŠ¤ë„ˆ ì‘ì„±");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		Container c = getContentPane();
@@ -24,14 +24,14 @@ public class AnonymousClassListener extends JFrame
 				JButton b = (JButton)e.getSource();
 				if(b.getText().equals("Action"))
 				{
-					b.setText("¾×¼Ç");
+					b.setText("ì•¡ì…˜");
 				}
 				else
 				{
 					b.setText("Action");
 				}
 				
-				// AnonymousClassListenerÀÇ ¸â¹ö³ª JFrameÀÇ ¸â¹ö¸¦ È£ÃâÇÒ ¼ö ÀÖÀ½
+				// AnonymousClassListenerì˜ ë©¤ë²„ë‚˜ JFrameì˜ ë©¤ë²„ë¥¼ í˜¸ì¶œí•  ìˆ˜ ìˆìŒ
 				setTitle(b.getText());
 			}
 		});
