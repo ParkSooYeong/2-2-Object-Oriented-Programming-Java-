@@ -7,7 +7,7 @@ public class IndepClassListener extends JFrame
 {
 	IndepClassListener()
 	{
-		setTitle("Action ÀÌº¥Æ® ¸®½º³Ê ¿¹Á¦");
+		setTitle("Action Ã€ÃŒÂºÂ¥Ã†Â® Â¸Â®Â½ÂºÂ³ÃŠ Â¿Â¹ÃÂ¦");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container container = getContentPane();
 		container.setLayout(new FlowLayout());
@@ -21,7 +21,7 @@ public class IndepClassListener extends JFrame
 				
 				if(b.getText().equals("Action"))
 				{
-					b.setText("¾×¼Ç");
+					b.setText("Â¾Ã—Â¼Ã‡");
 				}
 				else
 				{
