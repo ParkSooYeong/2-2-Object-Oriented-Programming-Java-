@@ -10,7 +10,7 @@ public class InnerClassListener extends JFrame
 {
 	public InnerClassListener()
 	{
-		setTitle("Action ÀÌº¥Æ® ¸®½º³Ê ¿¹Á¦");
+		setTitle("Action ì´ë²¤íŠ¸ ë¦¬ìŠ¤ë„ˆ ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		Container c = getContentPane();
@@ -23,7 +23,7 @@ public class InnerClassListener extends JFrame
 		setVisible(true);
 	}
 	
-	// ³»ºÎ Å¬·¡½º·Î Action ¸®½º³Ê¸¦ ÀÛ¼ºÇÑ´Ù.
+	// ë‚´ë¶€ í´ë˜ìŠ¤ë¡œ Action ë¦¬ìŠ¤ë„ˆë¥¼ ì‘ì„±í•œë‹¤.
 	private class MyActionListener implements ActionListener
 	{
 		public void actionPerformed(ActionEvent e)
@@ -31,15 +31,15 @@ public class InnerClassListener extends JFrame
 			JButton b = (JButton)e.getSource();
 			if(b.getText().equals("Action"))
 			{
-				b.setText("¾×¼Ç");
+				b.setText("ì•¡ì…˜");
 			}
 			else
 			{
 				b.setText("Action");
 			}
 			
-			// InnerClassListenerÀÇ ¸â¹ö³ª JFrameÀÇ ¸â¹ö¸¦ È£ÃâÇÒ ¼ö ÀÖÀ½
-			InnerClassListener.this.setTitle(b.getText()); // ÇÁ·¹ÀÓÀÇ Å¸ÀÌÆ²¿¡ ¹öÆ° ¹®ÀÚ¿­À» Ãâ·ÂÇÑ´Ù.
+			// InnerClassListenerì˜ ë©¤ë²„ë‚˜ JFrameì˜ ë©¤ë²„ë¥¼ í˜¸ì¶œí•  ìˆ˜ ìˆìŒ
+			InnerClassListener.this.setTitle(b.getText()); // í”„ë ˆì„ì˜ íƒ€ì´í‹€ì— ë²„íŠ¼ ë¬¸ìì—´ì„ ì¶œë ¥í•œë‹¤.
 		}
 	}
 	
