@@ -9,7 +9,7 @@ public class MouseEventAllEx extends JFrame
 	
 	MouseEventAllEx()
 	{
-		setTitle("MouseListener¿Í MouseMotionListener ¿¹Á¦");
+		setTitle("MouseListenerÂ¿Ã MouseMotionListener Â¿Â¹ÃÂ¦");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		
