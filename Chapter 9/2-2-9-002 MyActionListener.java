@@ -1,7 +1,7 @@
 import java.awt.event.*;
 import javax.swing.*;
 
-// µ¶¸³µÈ Å¬·¡½º·Î ÀÌº¥Æ® ¸®½º³Ê¸¦ ÀÛ¼ºÇÑ´Ù.
+// ë…ë¦½ëœ í´ë˜ìŠ¤ë¡œ ì´ë²¤íŠ¸ ë¦¬ìŠ¤ë„ˆë¥¼ ì‘ì„±í•œë‹¤.
 
 class MyActionListener implements ActionListener
 {
@@ -11,7 +11,7 @@ class MyActionListener implements ActionListener
 		
 		if(button.getText().equals("Action"))
 		{
-			button.setText("¾×¼Ç");
+			button.setText("ì•¡ì…˜");
 		}
 		else
 		{
