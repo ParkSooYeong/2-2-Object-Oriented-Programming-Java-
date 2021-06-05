@@ -9,13 +9,13 @@ public class KeyPlusMinus extends JFrame
 	
 	public KeyPlusMinus()
 	{
-		setTitle("+, - Å°·Î ÆùÆ® Å©±â Á¶Àı");
+		setTitle("+, - í‚¤ë¡œ í°íŠ¸ í¬ê¸° ì¡°ì ˆ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
 		
-		label.setFont(new Font("TimesRoman", Font.PLAIN, 10)); // 10 ÇÈ¼¿ Å©±â
+		label.setFont(new Font("TimesRoman", Font.PLAIN, 10)); // 10 í”½ì…€ í¬ê¸°
 		
 		label.addKeyListener(new MyKeyAdapter());
 		
