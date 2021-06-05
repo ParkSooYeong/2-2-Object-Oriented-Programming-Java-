@@ -7,7 +7,7 @@ public class MouseDraggingEx extends JFrame
 {
 	public MouseDraggingEx()
 	{
-		super("µå·¡±ëµ¿¾È YELLOW·Î º¯°æ");
+		super("ÂµÃ¥Â·Â¡Â±Ã«ÂµÂ¿Â¾Ãˆ YELLOWÂ·ÃŽ ÂºÂ¯Â°Ã¦");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		Container c = getContentPane();
