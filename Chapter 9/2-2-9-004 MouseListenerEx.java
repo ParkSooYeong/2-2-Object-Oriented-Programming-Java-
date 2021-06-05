@@ -5,19 +5,19 @@ import java.awt.event.*;
 @SuppressWarnings("serial")
 public class MouseListenerEx extends JFrame
 {
-	JLabel la = new JLabel("Hello"); // "Hello" Ãâ·Â¿ë ·¹ÀÌºí
+	JLabel la = new JLabel("Hello"); // "Hello" ì¶œë ¥ìš© ë ˆì´ë¸”
 	Container c = getContentPane();
 	
 	public MouseListenerEx()
 	{
-		setTitle("Mouse ÀÌº¥Æ® ¿¹Á¦");
+		setTitle("Mouse ì´ë²¤íŠ¸ ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		c.addMouseListener(new MyMouseListener());
 		
 		c.setLayout(null);
-		la.setSize(50, 20); // ·¹ÀÌºíÀÇ Å©±â 50x20 ¼³Á¤
-		la.setLocation(30, 30); // ·¹ÀÌºíÀÇ À§Ä¡ (30,30) ¼³Á¤
+		la.setSize(50, 20); // ë ˆì´ë¸”ì˜ í¬ê¸° 50x20 ì„¤ì •
+		la.setLocation(30, 30); // ë ˆì´ë¸”ì˜ ìœ„ì¹˜ (30,30) ì„¤ì •
 		c.add(la);
 		
 		setSize(200, 200);
@@ -28,9 +28,9 @@ public class MouseListenerEx extends JFrame
 	{
 		public void mousePressed(MouseEvent e)
 		{
-			int x = e.getX(); // ¸¶¿ì½ºÀÇ Å¬¸¯ ÁÂÇ¥ x
-			int y = e.getY(); // ¸¶¿ì½ºÀÇ Å¬¸¯ ÁÂÇ¥ y
-			la.setLocation(x, y); // (x,y) À§Ä¡·Î ·¹ÀÌºí ÀÌµ¿
+			int x = e.getX(); // ë§ˆìš°ìŠ¤ì˜ í´ë¦­ ì¢Œí‘œ x
+			int y = e.getY(); // ë§ˆìš°ìŠ¤ì˜ í´ë¦­ ì¢Œí‘œ y
+			la.setLocation(x, y); // (x,y) ìœ„ì¹˜ë¡œ ë ˆì´ë¸” ì´ë™
 			c.setBackground(Color.ORANGE);
 		} 
 		
