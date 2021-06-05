@@ -9,25 +9,25 @@ public class FlyingTextEx extends JFrame
 	
 	FlyingTextEx()
 	{
-		super("»ó,ÇÏ,ÁÂ,¿ì Å°¸¦ ÀÌ¿ëÇÏ¿© ÅØ½ºÆ® ¿òÁ÷ÀÌ±â");
+		super("ìƒ,í•˜,ì¢Œ,ìš° í‚¤ë¥¼ ì´ìš©í•˜ì—¬ í…ìŠ¤íŠ¸ ì›€ì§ì´ê¸°");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		Container c = getContentPane(); // ÄÁÅÙÆ®ÆÒ ¾Ë¾Æ³»±â
+		Container c = getContentPane(); // ì»¨í…íŠ¸íŒ¬ ì•Œì•„ë‚´ê¸°
 		c.setLayout(null);
-		c.addKeyListener(new MyKeyListener()); // Å° ¸®½º³Ê ´Ş±â
+		c.addKeyListener(new MyKeyListener()); // í‚¤ ë¦¬ìŠ¤ë„ˆ ë‹¬ê¸°
 		la.setLocation(50, 50);
 		la.setSize(100, 20);
 		c.add(la);
 		setSize(300, 300);
 		setVisible(true);
-		c.setFocusable(true); // ÄÁÅÙÆ®ÆÒÀÌ Æ÷Ä¿½º¸¦ ¹ŞÀ» ¼ö ÀÖµµ·Ï ¼³Á¤
-		c.requestFocus(); // ÄÁÅÙÆ®ÆÒ¿¡ Æ÷Ä¿½º ¼³Á¤. Å° ÀÔ·Â °¡´ÉÇØÁü
+		c.setFocusable(true); // ì»¨í…íŠ¸íŒ¬ì´ í¬ì»¤ìŠ¤ë¥¼ ë°›ì„ ìˆ˜ ìˆë„ë¡ ì„¤ì •
+		c.requestFocus(); // ì»¨í…íŠ¸íŒ¬ì— í¬ì»¤ìŠ¤ ì„¤ì •. í‚¤ ì…ë ¥ ê°€ëŠ¥í•´ì§
 	}
 	
 	class MyKeyListener extends KeyAdapter
 	{
 		public void keyPressed(KeyEvent e)
 		{
-			int keyCode = e.getKeyCode(); // ÀÔ·ÂµÈ Å°ÄÚµå
+			int keyCode = e.getKeyCode(); // ì…ë ¥ëœ í‚¤ì½”ë“œ
 			
 			switch(keyCode)
 			{
