@@ -6,7 +6,7 @@ public class ListEx extends JFrame
 {
 	ListEx()
 	{
-		setTitle("¸®½ºÆ® ¸¸µé±â ¿¹Á¦");
+		setTitle("Â¸Â®Â½ÂºÃ†Â® Â¸Â¸ÂµÃ©Â±Ã¢ Â¿Â¹ÃÂ¦");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
