@@ -10,16 +10,16 @@ public class CheckBoxItemEventEx extends JFrame
 	
 	CheckBoxItemEventEx()
 	{
-		setTitle("Ã¼Å©¹Ú½º¿Í ItemEvent ¿¹Á¦");
+		setTitle("ì²´í¬ë°•ìŠ¤ì™€ ItemEvent ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
-		c.add(new JLabel("»ç°ú 100¿ø, ¹è 500¿ø, Ã¼¸® 20000¿ø"));
+		c.add(new JLabel("ì‚¬ê³¼ 100ì›, ë°° 500ì›, ì²´ë¦¬ 20000ì›"));
 		MyItemListener listener = new MyItemListener();
 		
-		apple = new JCheckBox("»ç°ú");
-		pear = new JCheckBox("¹è");
-		cherry = new JCheckBox("Ã¼¸®");
+		apple = new JCheckBox("ì‚¬ê³¼");
+		pear = new JCheckBox("ë°°");
+		cherry = new JCheckBox("ì²´ë¦¬");
 		
 		//apple.setBorderPainted(true);
 		
@@ -29,13 +29,13 @@ public class CheckBoxItemEventEx extends JFrame
 		pear.addItemListener(listener);
 		cherry.addItemListener(listener);
 		
-		sumLabel = new JLabel("ÇöÀç 0 ¿ø ÀÔ´Ï´Ù.");
+		sumLabel = new JLabel("í˜„ì¬ 0 ì› ì…ë‹ˆë‹¤.");
 		c.add(sumLabel); setSize(250,200); setVisible(true);
 	}
 	
 	class MyItemListener implements ItemListener
 	{
-		int sum = 0; // °¡°İÀÇ ÇÕ
+		int sum = 0; // ê°€ê²©ì˜ í•©
 		
 		public void itemStateChanged(ItemEvent e)
 		{
@@ -70,7 +70,7 @@ public class CheckBoxItemEventEx extends JFrame
 				}
 			}
 			
-			sumLabel.setText("ÇöÀç " + sum + "¿ø ÀÔ´Ï´Ù.");
+			sumLabel.setText("í˜„ì¬ " + sum + "ì› ì…ë‹ˆë‹¤.");
 		}
 	}
 	
