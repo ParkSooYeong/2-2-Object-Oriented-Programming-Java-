@@ -6,17 +6,17 @@ public class LabelEx extends JFrame
 {
 	LabelEx()
 	{
-		setTitle("JLabel ¿¹Á¦");
+		setTitle("JLabel ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
 		
-		JLabel textLabel = new JLabel("Àç¹ÌÀÖ´Â ÀÚ¹Ù!");
+		JLabel textLabel = new JLabel("ì¬ë¯¸ìˆëŠ” ìë°”!");
 		ImageIcon img = new ImageIcon("images/icon1.png");
 		JLabel imageLabel = new JLabel(img);
 		
 		ImageIcon icon = new ImageIcon("images/icon.gif");
-		JLabel label = new JLabel("ÀüÈ­ÁÖ¼¼¿ä!",icon, SwingConstants.CENTER);
+		JLabel label = new JLabel("ì „í™”ì£¼ì„¸ìš”!",icon, SwingConstants.CENTER);
 		c.add(textLabel); c.add(imageLabel); c.add(label);
 		setSize(500,600);
 		setVisible(true);
