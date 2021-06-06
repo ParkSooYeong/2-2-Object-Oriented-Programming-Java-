@@ -5,8 +5,8 @@ public class MenuEx extends JFrame
 {
 	MenuEx()
 	{
-		setTitle("Menu ¸¸µé±â ¿¹Á¦");
-		createMenu(); //¸Ş´º »ı¼º, ÇÁ·¹ÀÓ¿¡ »ğÀÔ
+		setTitle("Menu ë§Œë“¤ê¸° ì˜ˆì œ");
+		createMenu(); //ë©”ë‰´ ìƒì„±, í”„ë ˆì„ì— ì‚½ì…
 		setSize(250, 200);
 		setVisible(true);
 	}
