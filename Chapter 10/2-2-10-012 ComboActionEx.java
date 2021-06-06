@@ -12,7 +12,7 @@ public class ComboActionEx extends JFrame
 	
 	ComboActionEx()
 	{
-		setTitle("ÄŞº¸¹Ú½º È°¿ë ¿¹Á¦");
+		setTitle("Ã„ÃÂºÂ¸Â¹ÃšÂ½Âº ÃˆÂ°Â¿Ã« Â¿Â¹ÃÂ¦");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
