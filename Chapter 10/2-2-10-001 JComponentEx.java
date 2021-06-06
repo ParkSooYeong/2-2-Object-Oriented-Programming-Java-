@@ -7,7 +7,7 @@ public class JComponentEx extends JFrame
 {
 	JComponentEx()
 	{
-		setTitle("JComponentÀÇ °øÅë ¸Ş¼Òµå ¿¹Á¦");
+		setTitle("JComponentÃ€Ã‡ Â°Ã¸Ã…Ã« Â¸ÃÂ¼Ã’ÂµÃ¥ Â¿Â¹ÃÂ¦");
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
 		JButton b1 = new JButton("Magenta/Yellow Button");
