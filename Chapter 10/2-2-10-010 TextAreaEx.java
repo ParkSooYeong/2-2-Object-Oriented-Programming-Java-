@@ -10,12 +10,12 @@ public class TextAreaEx extends JFrame
 	
 	TextAreaEx()
 	{
-		setTitle("ÅØ½ºÆ®¿µ¿ª ¸¸µé±â ¿¹Á¦");
+		setTitle("í…ìŠ¤íŠ¸ì˜ì—­ ë§Œë“¤ê¸° ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
 		
-		c.add(new JLabel("ÀÔ·Â ÈÄ <Enter> Å°¸¦ ÀÔ·ÂÇÏ¼¼¿ä"));
+		c.add(new JLabel("ì…ë ¥ í›„ <Enter> í‚¤ë¥¼ ì…ë ¥í•˜ì„¸ìš”"));
 		c.add(tf); c.add(ta);
 		c.add(new JScrollPane(ta));
 		
