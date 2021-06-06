@@ -6,19 +6,19 @@ public class RadioButtonEx extends JFrame
 {
 	RadioButtonEx()
 	{
-		setTitle("¶óµğ¿À¹öÆ° ¸¸µé±â ¿¹Á¦");
+		setTitle("ë¼ë””ì˜¤ë²„íŠ¼ ë§Œë“¤ê¸° ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
 		
 		ButtonGroup g = new ButtonGroup();
-		JRadioButton apple = new JRadioButton("»ç°ú");
-		JRadioButton pear = new JRadioButton("¹è", true);
-		JRadioButton cherry = new JRadioButton("Ã¼¸®");
-		// ¹öÆ° ±×·ì¿¡ 3°³ÀÇ ¶óµğ¿À¹öÆ° »ğÀÔ
+		JRadioButton apple = new JRadioButton("ì‚¬ê³¼");
+		JRadioButton pear = new JRadioButton("ë°°", true);
+		JRadioButton cherry = new JRadioButton("ì²´ë¦¬");
+		// ë²„íŠ¼ ê·¸ë£¹ì— 3ê°œì˜ ë¼ë””ì˜¤ë²„íŠ¼ ì‚½ì…
 		
 		g.add(apple); g.add(pear); g.add(cherry);
-		// ÄÁÅÙÆ®ÆÒ¿¡ 3°³ÀÇ ¶óµğ¿À¹öÆ° »ğÀÔ
+		// ì»¨í…íŠ¸íŒ¬ì— 3ê°œì˜ ë¼ë””ì˜¤ë²„íŠ¼ ì‚½ì…
 		
 		c.add(apple); c.add(pear); c.add(cherry);
 		setSize(250,150);
