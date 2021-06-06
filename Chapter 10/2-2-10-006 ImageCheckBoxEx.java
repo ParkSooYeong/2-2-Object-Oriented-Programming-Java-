@@ -6,7 +6,7 @@ public class ImageCheckBoxEx extends JFrame
 {
 	ImageCheckBoxEx()
 	{
-		setTitle("Ã¼Å©¹Ú½º ¸¸µé±â ¿¹Á¦");
+		setTitle("ì²´í¬ë°•ìŠ¤ ë§Œë“¤ê¸° ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
@@ -14,10 +14,10 @@ public class ImageCheckBoxEx extends JFrame
 		ImageIcon img_p = new ImageIcon("images/pear.png");
 		ImageIcon img_c = new ImageIcon("images/cherry.png");
 		
-		// 3°³ÀÇ Ã¼Å©¹Ú½º¸¦ »ı¼ºÇÑ´Ù.
-		JCheckBox apple = new JCheckBox("»ç°ú", img_a);
-		JCheckBox pear = new JCheckBox("¹è", img_p, true);
-		JCheckBox cherry = new JCheckBox("Ã¼¸®", img_c);
+		// 3ê°œì˜ ì²´í¬ë°•ìŠ¤ë¥¼ ìƒì„±í•œë‹¤.
+		JCheckBox apple = new JCheckBox("ì‚¬ê³¼", img_a);
+		JCheckBox pear = new JCheckBox("ë°°", img_p, true);
+		JCheckBox cherry = new JCheckBox("ì²´ë¦¬", img_c);
 		
 		apple.setBorderPainted(true);
 		pear.setBorderPainted(true);
