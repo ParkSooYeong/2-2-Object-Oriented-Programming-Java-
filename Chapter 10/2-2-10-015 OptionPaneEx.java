@@ -7,7 +7,7 @@ public class OptionPaneEx extends JFrame
 {
 	OptionPaneEx()
 	{
-		setTitle("¿É¼Ç ÆÒ ¿¹Á¦");
+		setTitle("ì˜µì…˜ íŒ¬ ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		setSize(500,200);
@@ -34,7 +34,7 @@ public class OptionPaneEx extends JFrame
 			{
 				public void actionPerformed(ActionEvent e)
 				{
-					String name = JOptionPane.showInputDialog("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä");
+					String name = JOptionPane.showInputDialog("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”");
 					if(name != null)
 					{
 						tf.setText(name);
@@ -46,7 +46,7 @@ public class OptionPaneEx extends JFrame
 			{
 				public void actionPerformed(ActionEvent e)
 				{
-					int result = JOptionPane.showConfirmDialog(null,"°è¼ÓÇÒ °ÍÀÔ´Ï±î?", "Confirm", JOptionPane.YES_NO_OPTION);
+					int result = JOptionPane.showConfirmDialog(null,"ê³„ì†í•  ê²ƒì…ë‹ˆê¹Œ?", "Confirm", JOptionPane.YES_NO_OPTION);
 					
 					if(result == JOptionPane.CLOSED_OPTION)
 					{
@@ -67,7 +67,7 @@ public class OptionPaneEx extends JFrame
 			{
 				public void actionPerformed(ActionEvent e)
 				{
-					JOptionPane.showMessageDialog(null, "Á¶½ÉÇÏ¼¼¿ä", "Message", JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(null, "ì¡°ì‹¬í•˜ì„¸ìš”", "Message", JOptionPane.ERROR_MESSAGE);
 				}
 			});
 		}
