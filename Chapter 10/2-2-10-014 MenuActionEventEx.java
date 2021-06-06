@@ -5,11 +5,11 @@ import java.awt.event.*;
 @SuppressWarnings("serial")
 public class MenuActionEventEx extends JFrame
 {
-	JLabel imgLabel = new JLabel(); // ºó ·¹ÀÌºí
+	JLabel imgLabel = new JLabel(); // ë¹ˆ ë ˆì´ë¸”
 	
 	MenuActionEventEx()
 	{
-		setTitle("Menu¿¡ Action ¸®½º³Ê ¸¸µé±â ¿¹Á¦");
+		setTitle("Menuì— Action ë¦¬ìŠ¤ë„ˆ ë§Œë“¤ê¸° ì˜ˆì œ");
 		createMenu();
 		getContentPane().add(imgLabel, BorderLayout.CENTER);
 		setSize(500, 400); setVisible(true);
@@ -17,7 +17,7 @@ public class MenuActionEventEx extends JFrame
 	
 	void createMenu()
 	{
-		JMenuBar mb = new JMenuBar(); //¸Ş´º¹Ù »ı¼º
+		JMenuBar mb = new JMenuBar(); //ë©”ë‰´ë°” ìƒì„±
 		JMenu screenMenu = new JMenu("Screen");
 		JMenuItem [] menuItem = new JMenuItem [4];
 		String [] itemTitle = {"Load", "Hide", "ReShow", "Exit"};
@@ -31,7 +31,7 @@ public class MenuActionEventEx extends JFrame
 		}
 		
 		mb.add(screenMenu);
-		setJMenuBar(mb); // ¸Ş´º¹Ù¸¦ ÇÁ·¹ÀÓ¿¡ ºÎÂø
+		setJMenuBar(mb); // ë©”ë‰´ë°”ë¥¼ í”„ë ˆì„ì— ë¶€ì°©
 	}
 	
 	class MenuActionListener implements ActionListener
@@ -39,7 +39,7 @@ public class MenuActionEventEx extends JFrame
 		public void actionPerformed(ActionEvent e)
 		{
 			String cmd = e.getActionCommand();
-			switch(cmd) //¸Ş´º ¾ÆÀÌÅÛÀÇ Á¾·ù ±¸ºĞ
+			switch(cmd) //ë©”ë‰´ ì•„ì´í…œì˜ ì¢…ë¥˜ êµ¬ë¶„
 			{
 			case "Load" :
 				if(imgLabel.getIcon() != null)
