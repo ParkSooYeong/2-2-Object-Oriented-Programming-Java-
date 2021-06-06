@@ -9,17 +9,17 @@ public class TextFieldEx extends JFrame
 {
 	public TextFieldEx()
 	{
-		setTitle("ÅØ½ºÆ®ÇÊµå ¸¸µé±â ¿¹Á¦");
+		setTitle("í…ìŠ¤íŠ¸í•„ë“œ ë§Œë“¤ê¸° ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
 		
-		c.add(new JLabel("ÀÌ¸§ "));
-		c.add(new JTextField(20)); // Ã¢ÀÇ ¿­ °³¼ö 20
-		c.add(new JLabel("ÇĞ°ú "));
-		c.add(new JTextField("Á¤º¸Åë½Å°øÇĞºÎ", 20)); // Ã¢ÀÇ ¿­ °³¼ö 20
-		c.add(new JLabel("ÁÖ¼Ò "));
-		c.add(new JTextField("¼­¿ï½Ã ...", 20)); // Ã¢ÀÇ ¿­ °³¼ö 20
+		c.add(new JLabel("ì´ë¦„ "));
+		c.add(new JTextField(20)); // ì°½ì˜ ì—´ ê°œìˆ˜ 20
+		c.add(new JLabel("í•™ê³¼ "));
+		c.add(new JTextField("ì •ë³´í†µì‹ ê³µí•™ë¶€", 20)); // ì°½ì˜ ì—´ ê°œìˆ˜ 20
+		c.add(new JLabel("ì£¼ì†Œ "));
+		c.add(new JTextField("ì„œìš¸ì‹œ ...", 20)); // ì°½ì˜ ì—´ ê°œìˆ˜ 20
 		
 		setSize(300,150);
 		setVisible(true);
