@@ -6,15 +6,15 @@ public class CheckBoxEx extends JFrame
 {
 	CheckBoxEx()
 	{
-		setTitle("Ã¼Å©¹Ú½º ¸¸µé±â ¿¹Á¦");
+		setTitle("ì²´í¬ë°•ìŠ¤ ë§Œë“¤ê¸° ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
 		
-		// 3°³ÀÇ Ã¼Å©¹Ú½º¸¦ »ı¼ºÇÑ´Ù.
-		JCheckBox apple = new JCheckBox("»ç°ú");
-		JCheckBox pear = new JCheckBox("¹è", true);
-		JCheckBox cherry = new JCheckBox("Ã¼¸®");
+		// 3ê°œì˜ ì²´í¬ë°•ìŠ¤ë¥¼ ìƒì„±í•œë‹¤.
+		JCheckBox apple = new JCheckBox("ì‚¬ê³¼");
+		JCheckBox pear = new JCheckBox("ë°°", true);
+		JCheckBox cherry = new JCheckBox("ì²´ë¦¬");
 		
 		c.add(apple);
 		c.add(pear);
