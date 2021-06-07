@@ -7,7 +7,7 @@ public class GraphicsDrawOvalMouseEx extends JFrame
 {
 	GraphicsDrawOvalMouseEx()
 	{
-		setTitle("¸¶¿ì½º µå·¡±ëÀ¸·Î Å¸¿ø ±×¸®±â ¿¹Á¦");
+		setTitle("ë§ˆìš°ìŠ¤ ë“œë˜ê¹…ìœ¼ë¡œ íƒ€ì› ê·¸ë¦¬ê¸° ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setContentPane(new MyPanel());
 		setSize(300,300);
@@ -19,16 +19,16 @@ public class GraphicsDrawOvalMouseEx extends JFrame
 		new GraphicsDrawOvalMouseEx();
 	}
 	
-	// Å¸¿øÀ» ±×¸± ÆĞ³Î ÀÛ¼º. ÀÌ ÆĞ³Î¿¡ ¸¶¿ì½º ¸®½º³Ê ±¸Çö
+	// íƒ€ì›ì„ ê·¸ë¦´ íŒ¨ë„ ì‘ì„±. ì´ íŒ¨ë„ì— ë§ˆìš°ìŠ¤ ë¦¬ìŠ¤ë„ˆ êµ¬í˜„
 	class MyPanel extends JPanel
 	{
-		Point start = null, end = null; // ¸¶¿ì½ºÀÇ ½ÃÀÛÁ¡°ú ³¡Á¡
+		Point start = null, end = null; // ë§ˆìš°ìŠ¤ì˜ ì‹œì‘ì ê³¼ ëì 
 		
 		public MyPanel()
 		{
 			MyMouseListener listener = new MyMouseListener();
 			
-			// listener¸¦ ¾Æ·¡ µÎ ¸®½º³Ê·Î °øÅëÀ¸·Î µî·ÏÇØ¾ß ÇÑ´Ù.
+			// listenerë¥¼ ì•„ë˜ ë‘ ë¦¬ìŠ¤ë„ˆë¡œ ê³µí†µìœ¼ë¡œ ë“±ë¡í•´ì•¼ í•œë‹¤.
 			addMouseListener(listener);
 			addMouseMotionListener(listener);
 		}
@@ -43,7 +43,7 @@ public class GraphicsDrawOvalMouseEx extends JFrame
 			public void mouseDragged(MouseEvent e)
 			{
 				end = e.getPoint();
-				repaint(); // ÆĞ³ÎÀÇ ±×¸®±â ¿äÃ» ÁÖ¸ñ
+				repaint(); // íŒ¨ë„ì˜ ê·¸ë¦¬ê¸° ìš”ì²­ ì£¼ëª©
 			}
 		}
 		
@@ -51,17 +51,17 @@ public class GraphicsDrawOvalMouseEx extends JFrame
 		{
 			super.paintComponent(g);
 			
-			if(start == null) // Å¸¿øÀÌ ¸¸µé¾îÁöÁö ¾Ê¾ÒÀ½
+			if(start == null) // íƒ€ì›ì´ ë§Œë“¤ì–´ì§€ì§€ ì•Šì•˜ìŒ
 			{
 				return;
 			}
 			
-			g.setColor(Color.BLUE); // ÆÄ¶õ»ö ¼±ÅÃ
+			g.setColor(Color.BLUE); // íŒŒë€ìƒ‰ ì„ íƒ
 			int x = Math.min(start.x, end.x);
 			int y = Math.min(start.y, end.y);
 			int width = Math.abs(start.x - end.x);
 			int height = Math.abs(start.y - end.y);
-			g.drawOval(x, y, width, height); // Å¸¿ø ±×¸®±â
+			g.drawOval(x, y, width, height); // íƒ€ì› ê·¸ë¦¬ê¸°
 		}
 	}
 }
