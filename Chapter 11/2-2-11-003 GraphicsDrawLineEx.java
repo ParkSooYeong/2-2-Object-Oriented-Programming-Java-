@@ -6,7 +6,7 @@ public class GraphicsDrawLineEx extends JFrame
 {
 	GraphicsDrawLineEx()
 	{
-		setTitle("drawLine »ç¿ë ¿¹Á¦");
+		setTitle("drawLine ì‚¬ìš© ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setContentPane(new MyPanel());
 		setSize(300,250);
@@ -18,7 +18,7 @@ public class GraphicsDrawLineEx extends JFrame
 		public void paintComponent(Graphics g)
 		{
 			super.paintComponent(g);
-			g.setColor(Color.RED); // »¡°£»öÀ» ¼±ÅÃÇÑ´Ù.
+			g.setColor(Color.RED); // ë¹¨ê°„ìƒ‰ì„ ì„ íƒí•œë‹¤.
 			//g.drawLine(20, 20, 100, 100);
 			//g.drawOval(20, 20, 80, 80);
 			//g.drawRect(20, 20, 80, 80);
