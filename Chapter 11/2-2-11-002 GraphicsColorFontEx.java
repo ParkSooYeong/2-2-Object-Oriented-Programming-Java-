@@ -6,7 +6,7 @@ public class GraphicsColorFontEx extends JFrame
 {
 	GraphicsColorFontEx()
 	{
-		setTitle("JPanelÀÇ paintComponent() ¿¹Á¦");
+		setTitle("JPanelì˜ paintComponent() ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setContentPane(new MyPanel());
 		setSize(300,300);
@@ -19,7 +19,7 @@ public class GraphicsColorFontEx extends JFrame
 		{
 			super.paintComponent(g);
 			g.setColor(Color.BLUE);
-			g.drawString("ÀÚ¹Ù°¡ Á¤¸» Àç¹ÌÀÖ´Ù.~~", 30, 30);
+			g.drawString("ìë°”ê°€ ì •ë§ ì¬ë¯¸ìˆë‹¤.~~", 30, 30);
 			g.setColor(new Color(255, 0, 0));
 			g.setFont(new Font("Arial", Font.ITALIC, 30));
 			g.drawString("How much?", 30, 70);
