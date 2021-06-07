@@ -6,7 +6,7 @@ public class paintJPanelEx extends JFrame
 {
 	paintJPanelEx()
 	{
-		setTitle("JPanelÀÇ paintComponent() ¿¹Á¦");
+		setTitle("JPanelÃ€Ã‡ paintComponent() Â¿Â¹ÃÂ¦");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setContentPane(new MyPanel());
 		setSize(250,200);
