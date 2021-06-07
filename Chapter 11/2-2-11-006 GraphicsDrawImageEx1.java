@@ -6,7 +6,7 @@ public class GraphicsDrawImageEx1 extends JFrame
 {
 	GraphicsDrawImageEx1()
 	{
-		setTitle("¿øº» Å©±â·Î ¿øÇÏ´Â À§Ä¡¿¡ ÀÌ¹ÌÁö ±×¸®±â");
+		setTitle("ì›ë³¸ í¬ê¸°ë¡œ ì›í•˜ëŠ” ìœ„ì¹˜ì— ì´ë¯¸ì§€ ê·¸ë¦¬ê¸°");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setContentPane(new MyPanel());
 		setSize(300,400);
