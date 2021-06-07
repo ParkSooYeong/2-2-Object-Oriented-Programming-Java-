@@ -17,7 +17,7 @@ public class ThreeColorCircle extends JFrame
 		public void paintComponent(Graphics g)
 		{
 			super.paintComponent(g);
-			g.setColor(Color.RED); // »¡°£»öÀ» ¼±ÅÃÇÑ´Ù.
+			g.setColor(Color.RED); // Â»Â¡Â°Â£Â»Ã¶Ã€Â» Â¼Â±Ã…ÃƒÃ‡Ã‘Â´Ã™.
 			g.fillArc(30, 30, 100, 100, 90, 120);
 			g.setColor(Color.BLUE);
 			g.fillArc(30, 30, 100, 100, 210, 120);
