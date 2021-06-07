@@ -7,15 +7,15 @@ public class PlusMinusImageFrame extends JFrame
 {
 	public PlusMinusImageFrame()
 	{
-		super("±×·¡ÇÈ ÀÌ¹ÌÁö 10% È®´ë Ãà¼Ò");
+		super("ê·¸ë˜í”½ ì´ë¯¸ì§€ 10% í™•ëŒ€ ì¶•ì†Œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		setContentPane(new MyPanel());
 		setSize(300,300);
 		setVisible(true);
 		
-		getContentPane().setFocusable(true); // ÄÄÆ÷³ÍÆ®¿¡ Æ÷Ä¿½º¸¦ ¹ŞÀ» ¼ö ÀÖµµ·Ï ÁöÁ¤
-		getContentPane().requestFocus(); // ÄÄÆ÷³ÍÆ®¿¡ Æ÷Ä¿½º ÁöÁ¤
+		getContentPane().setFocusable(true); // ì»´í¬ë„ŒíŠ¸ì— í¬ì»¤ìŠ¤ë¥¼ ë°›ì„ ìˆ˜ ìˆë„ë¡ ì§€ì •
+		getContentPane().requestFocus(); // ì»´í¬ë„ŒíŠ¸ì— í¬ì»¤ìŠ¤ ì§€ì •
 	}
 	
 	class MyPanel extends JPanel
@@ -43,7 +43,7 @@ public class PlusMinusImageFrame extends JFrame
 					{
 						if(width*0.9 < 1 || height*0.9 < 1)
 						{
-							return; // 1º¸´Ù ÀÛ°Ô µÇ´Â °ÍÀ» ¸·¾Æ º¸ÀÌÁö ¾Ê°Ô µÇ´Â °ÍÀ» ¸·À½
+							return; // 1ë³´ë‹¤ ì‘ê²Œ ë˜ëŠ” ê²ƒì„ ë§‰ì•„ ë³´ì´ì§€ ì•Šê²Œ ë˜ëŠ” ê²ƒì„ ë§‰ìŒ
 						}
 						
 						width = width*0.9;
