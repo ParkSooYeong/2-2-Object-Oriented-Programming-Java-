@@ -9,7 +9,7 @@ public class GraphicsDrawImageEx2 extends JFrame
 {
 	public GraphicsDrawImageEx2()
 	{
-		setTitle("ÆĞ³ÎÀÇ Å©±â¿¡ ¸ÂÃß¾î ÀÌ¹ÌÁö ±×¸®±â");
+		setTitle("íŒ¨ë„ì˜ í¬ê¸°ì— ë§ì¶”ì–´ ì´ë¯¸ì§€ ê·¸ë¦¬ê¸°");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setContentPane(new MyPanel());
 		
@@ -19,14 +19,14 @@ public class GraphicsDrawImageEx2 extends JFrame
 	
 	class MyPanel extends JPanel
 	{
-		private ImageIcon icon = new ImageIcon("images/image0.jpg"); // ÀÌ¹ÌÁö ·Îµù
-		private Image img = icon.getImage(); // ÀÌ¹ÌÁö °´Ã¼
+		private ImageIcon icon = new ImageIcon("images/image0.jpg"); // ì´ë¯¸ì§€ ë¡œë”©
+		private Image img = icon.getImage(); // ì´ë¯¸ì§€ ê°ì²´
 		
 		public void paintComponent(Graphics g)
 		{
 			super.paintComponent(g);
 			
-			// ÀÌ¹ÌÁö¸¦ ÆĞ³Î Å©±â·Î Á¶ÀıÇÏ¿© ±×¸°´Ù
+			// ì´ë¯¸ì§€ë¥¼ íŒ¨ë„ í¬ê¸°ë¡œ ì¡°ì ˆí•˜ì—¬ ê·¸ë¦°ë‹¤
 			g.drawImage(img, 0, 0, getWidth(), getHeight(), this);
 		}
 	}
