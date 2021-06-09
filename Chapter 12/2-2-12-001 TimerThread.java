@@ -2,23 +2,23 @@ import javax.swing.*;
 
 class TimerThread extends Thread
 {
-	private JLabel timerLabel; // Å¸ÀÌ¸Ó °ªÀÌ Ãâ·ÂµÇ´Â ·¹ÀÌºí
+	private JLabel timerLabel; // íƒ€ì´ë¨¸ ê°’ì´ ì¶œë ¥ë˜ëŠ” ë ˆì´ë¸”
 	
 	public TimerThread(JLabel timerLabel)
 	{
 		this.timerLabel = timerLabel;
 	}
 	
-	// ½º·¹µå ÄÚµå. run()ÀÌ Á¾·áÇÏ¸é ½º·¹µå Á¾·á
+	// ìŠ¤ë ˆë“œ ì½”ë“œ. run()ì´ ì¢…ë£Œí•˜ë©´ ìŠ¤ë ˆë“œ ì¢…ë£Œ
 	@Override
 	public void run()
 	{
-		int n = 0; // Å¸ÀÌ¸Ó Ä«¿îÆ® °ª
+		int n = 0; // íƒ€ì´ë¨¸ ì¹´ìš´íŠ¸ ê°’
 		
-		while(true) // ¹«ÇÑ ·çÇÁ
+		while(true) // ë¬´í•œ ë£¨í”„
 		{
 			timerLabel.setText(Integer.toString(n));
-			n++; // Ä«¿îÆ® Áõ°¡
+			n++; // ì¹´ìš´íŠ¸ ì¦ê°€
 			
 			try
 			{
