@@ -7,20 +7,20 @@ public class FileInputStreamEx
 {
 	public static void main(String[] args)
 	{
-		byte b[] = new byte [6]; // ºñ¾î ÀÖ´Â byte ¹è¿­
+		byte b[] = new byte [6]; // ë¹„ì–´ ìˆëŠ” byte ë°°ì—´
 		
 		try
 		{
-			// "c:\\Users\\user\\eclipse-workspace\\2-2-13\\test.out" ÆÄÀÏÀ» ÀĞ¾î ¹è¿­ b¿¡ ÀúÀå
+			// "c:\\Users\\user\\eclipse-workspace\\2-2-13\\test.out" íŒŒì¼ì„ ì½ì–´ ë°°ì—´ bì— ì €ì¥
 			FileInputStream fin = new FileInputStream("c:\\\\Users\\\\user\\\\eclipse-workspace\\\\2-2-13\\\\test.out");
 			int n=0, c;
-			while((c = fin.read()) != -1) // -1Àº ÆÄÀÏ ³¡(EOF)
+			while((c = fin.read()) != -1) // -1ì€ íŒŒì¼ ë(EOF)
 			{
-				b[n] = (byte)c; // ÀĞÀº ¹ÙÀÌÆ®¸¦ ¹è¿­¿¡ ÀúÀå
+				b[n] = (byte)c; // ì½ì€ ë°”ì´íŠ¸ë¥¼ ë°°ì—´ì— ì €ì¥
 				n++;
 			}
-			// ¹è¿­ bÀÇ ¹ÙÀÌÆ® °ªÀ» ¸ğµÎ È­¸é¿¡ Ãâ·Â
-			System.out.println("c:\\\\Users\\\\user\\\\eclipse-workspace\\\\2-2-13\\\\test.out¿¡¼­ ÀĞÀº ¹è¿­À» Ãâ·ÂÇÕ´Ï´Ù.");
+			// ë°°ì—´ bì˜ ë°”ì´íŠ¸ ê°’ì„ ëª¨ë‘ í™”ë©´ì— ì¶œë ¥
+			System.out.println("c:\\\\Users\\\\user\\\\eclipse-workspace\\\\2-2-13\\\\test.outì—ì„œ ì½ì€ ë°°ì—´ì„ ì¶œë ¥í•©ë‹ˆë‹¤.");
 			for(int i=0; i<b.length; i++)
 			{
 				System.out.print(b[i] + " ");
