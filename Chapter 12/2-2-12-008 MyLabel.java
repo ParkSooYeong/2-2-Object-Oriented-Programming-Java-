@@ -4,7 +4,7 @@ import java.awt.*;
 @SuppressWarnings("serial")
 class MyLabel extends JLabel
 {
-	private int barSize = 0; // ¹ÙÀÇ Å©±â
+	private int barSize = 0; // ë°”ì˜ í¬ê¸°
 	private int maxBarSize;
 	
 	public MyLabel(int maxBarSize)
@@ -19,7 +19,7 @@ class MyLabel extends JLabel
 		int width = (int) (((double)(getWidth()))/maxBarSize*barSize);
 		if(width == 0)
 		{
-			return; // Å©±â°¡ 0ÀÌ±â ¶§¹®¿¡ ¹Ù¸¦ ±×¸± ÇÊ¿ä ¾øÀ½
+			return; // í¬ê¸°ê°€ 0ì´ê¸° ë•Œë¬¸ì— ë°”ë¥¼ ê·¸ë¦´ í•„ìš” ì—†ìŒ
 		}
 		g.fillRect(0, 0, width, this.getHeight());
 	}
@@ -30,7 +30,7 @@ class MyLabel extends JLabel
 		{
 			try
 			{
-				wait(); // ¹ÙÀÇ Å©±â°¡ ÃÖ´ëÀÌ¸é, ConsumerThread¿¡ ÀÇÇØ ¹ÙÀÇ Å©±â°¡ ÁÙ¾îµé¶§±îÁö ´ë±â
+				wait(); // ë°”ì˜ í¬ê¸°ê°€ ìµœëŒ€ì´ë©´, ConsumerThreadì— ì˜í•´ ë°”ì˜ í¬ê¸°ê°€ ì¤„ì–´ë“¤ë•Œê¹Œì§€ ëŒ€ê¸°
 			}
 			
 			catch(InterruptedException e)
@@ -40,8 +40,8 @@ class MyLabel extends JLabel
 		}
 		
 		barSize++;
-		repaint(); // ¹Ù ´Ù½Ã ±×¸®±â
-		notify(); // ±â´Ù¸®´Â ConsumerThread ½º·¹µå ±ú¿ì±â
+		repaint(); // ë°” ë‹¤ì‹œ ê·¸ë¦¬ê¸°
+		notify(); // ê¸°ë‹¤ë¦¬ëŠ” ConsumerThread ìŠ¤ë ˆë“œ ê¹¨ìš°ê¸°
 	}
 	
 	synchronized void consume()
@@ -59,8 +59,8 @@ class MyLabel extends JLabel
 			}
 			
 			barSize--;
-			repaint(); // ¹Ù ´Ù½Ã ±×¸®±â
-			notify(); // ±â´Ù¸®´Â Å° ÀÌº¥Æ® ¸®½º³Ê(½º·¹µå) ±ú¿ì±â
+			repaint(); // ë°” ë‹¤ì‹œ ê·¸ë¦¬ê¸°
+			notify(); // ê¸°ë‹¤ë¦¬ëŠ” í‚¤ ì´ë²¤íŠ¸ ë¦¬ìŠ¤ë„ˆ(ìŠ¤ë ˆë“œ) ê¹¨ìš°ê¸°
 		}
 	}
 }
