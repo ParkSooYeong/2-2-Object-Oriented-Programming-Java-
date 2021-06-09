@@ -37,6 +37,6 @@ public class TabAndThreadEx extends JFrame
 	
 	public static void main(String [] args)
 	{
-		new TabAndThreadEx("¾Æ¹«°Å³ª »¡¸® ´­·¯ ¹Ù Ã¤¿ì±â");
+		new TabAndThreadEx("ì•„ë¬´ê±°ë‚˜ ë¹¨ë¦¬ ëˆŒëŸ¬ ë°” ì±„ìš°ê¸°");
 	}
 }
