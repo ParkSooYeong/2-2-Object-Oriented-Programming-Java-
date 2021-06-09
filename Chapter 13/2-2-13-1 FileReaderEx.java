@@ -11,9 +11,9 @@ public class FileReaderEx
 		
 		try
 		{
-			in = new FileReader("c:\\windows\\system.ini"); // ¹®ÀÚ ÀÔ·Â ½ºÆ®¸² »ı¼º
+			in = new FileReader("c:\\windows\\system.ini"); // ë¬¸ì ì…ë ¥ ìŠ¤íŠ¸ë¦¼ ìƒì„±
 			int c;
-			while((c = in.read()) != -1) // ÇÑ ¹®ÀÚ¾¿ ÆÄÀÏ ³¡±îÁö ÀĞ´Â´Ù.
+			while((c = in.read()) != -1) // í•œ ë¬¸ìì”© íŒŒì¼ ëê¹Œì§€ ì½ëŠ”ë‹¤.
 			{
 				System.out.print((char)c);
 			}
@@ -21,7 +21,7 @@ public class FileReaderEx
 		}
 		catch(IOException e)
 		{
-			System.out.println("ÀÔÃâ·Â ¿À·ù");
+			System.out.println("ì…ì¶œë ¥ ì˜¤ë¥˜");
 		}
 	}
 }
