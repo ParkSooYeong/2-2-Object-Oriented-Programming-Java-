@@ -7,9 +7,9 @@ public class ThreadMainEx
 		int priority = Thread.currentThread().getPriority();
 		Thread.State s = Thread.currentThread().getState();
 		
-		System.out.println("ÇöÀç ½º·¹µå ÀÌ¸§ = " + name);
-		System.out.println("ÇöÀç ½º·¹µå ID = " + id);
-		System.out.println("ÇöÀç ½º·¹µå ¿ì¼±¼øÀ§ °ª = " + priority);
-		System.out.println("ÇöÀç ½º·¹µå »óÅÂ = " + s);
+		System.out.println("í˜„ì¬ ìŠ¤ë ˆë“œ ì´ë¦„ = " + name);
+		System.out.println("í˜„ì¬ ìŠ¤ë ˆë“œ ID = " + id);
+		System.out.println("í˜„ì¬ ìŠ¤ë ˆë“œ ìš°ì„ ìˆœìœ„ ê°’ = " + priority);
+		System.out.println("í˜„ì¬ ìŠ¤ë ˆë“œ ìƒíƒœ = " + s);
 	}
 }
