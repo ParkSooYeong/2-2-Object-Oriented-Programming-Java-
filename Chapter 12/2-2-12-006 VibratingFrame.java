@@ -5,11 +5,11 @@ import java.util.Random;
 @SuppressWarnings("serial")
 public class VibratingFrame extends JFrame implements Runnable
 {
-	private Thread th; // Áøµ¿ÇÏ´Â ½º·¹µå
+	private Thread th; // ì§„ë™í•˜ëŠ” ìŠ¤ë ˆë“œ
 	
 	public VibratingFrame()
 	{
-		setTitle("Áøµ¿ÇÏ´Â ÇÁ·¹ÀÓ ¸¸µé±â");
+		setTitle("ì§„ë™í•˜ëŠ” í”„ë ˆì„ ë§Œë“¤ê¸°");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(200,200);
 		setLocation(300,300);
