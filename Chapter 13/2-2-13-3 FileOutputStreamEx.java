@@ -14,13 +14,13 @@ public class FileOutputStreamEx
 			FileOutputStream fout = new FileOutputStream("c:\\Users\\user\\eclipse-workspace\\2-2-13\\test.out");
 			for(int i=0; i<b.length; i++)
 			{
-				fout.write(b[i]); // ¹è¿­ bÀÇ ¹ÙÀÌ³Ê¸®¸¦ ±×´ë·Î ±â·Ï
+				fout.write(b[i]); // ë°°ì—´ bì˜ ë°”ì´ë„ˆë¦¬ë¥¼ ê·¸ëŒ€ë¡œ ê¸°ë¡
 			}
 			fout.close();
 		}
 		catch(IOException e)
 		{
-			System.out.println("ÀÔÃâ·Â ¿À·ù");
+			System.out.println("ìž…ì¶œë ¥ ì˜¤ë¥˜");
 		}
 	}
 }
