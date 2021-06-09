@@ -6,12 +6,12 @@ public class RunnableTimerEx extends JFrame
 {
 	public RunnableTimerEx()
 	{
-		setTitle("Thread¸¦ »ó¼Ó¹ŞÀº Å¸ÀÌ¸Ó ½º·¹µå ¿¹Á¦");
+		setTitle("Threadë¥¼ ìƒì†ë°›ì€ íƒ€ì´ë¨¸ ìŠ¤ë ˆë“œ ì˜ˆì œ");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 		c.setLayout(new FlowLayout());
 		
-		// Å¸ÀÌ¸Ó °ªÀ» Ãâ·ÂÇÒ ·¹ÀÌºí »ı¼º
+		// íƒ€ì´ë¨¸ ê°’ì„ ì¶œë ¥í•  ë ˆì´ë¸” ìƒì„±
 		JLabel timerLabel = new JLabel();
 		timerLabel.setFont(new Font("Gothic", Font.ITALIC, 80));
 		c.add(timerLabel);
@@ -20,7 +20,7 @@ public class RunnableTimerEx extends JFrame
 		Thread th = new Thread(runnable);
 		setSize(250,150);
 		setVisible(true);
-		th.start(); // Å¸ÀÌ¸Ó ½º·¹µåÀÇ ½ÇÇàÀ» ½ÃÀÛÇÏ°Ô ÇÑ´Ù.
+		th.start(); // íƒ€ì´ë¨¸ ìŠ¤ë ˆë“œì˜ ì‹¤í–‰ì„ ì‹œì‘í•˜ê²Œ í•œë‹¤.
 	}
 	
 	public static void main(String[] args)
