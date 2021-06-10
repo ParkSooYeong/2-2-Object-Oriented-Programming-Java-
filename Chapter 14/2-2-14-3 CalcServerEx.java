@@ -40,23 +40,23 @@ public class CalcServerEx
 		Socket socket = null;
 		try
 		{
-			listener = new ServerSocket(9999); // ¼­¹ö ¼ÒÄÏ »ı¼º
-			System.out.println("¿¬°áÀ» ±â´Ù¸®°í ÀÖ½À´Ï´Ù.....");
-			socket = listener.accept(); // Å¬¶óÀÌ¾ğÆ®·ÎºÎÅÍ ¿¬°á ¿äÃ» ´ë±â
-			System.out.println("¿¬°áµÇ¾ú½À´Ï´Ù.");
+			listener = new ServerSocket(9999); // ì„œë²„ ì†Œì¼“ ìƒì„±
+			System.out.println("ì—°ê²°ì„ ê¸°ë‹¤ë¦¬ê³  ìˆìŠµë‹ˆë‹¤.....");
+			socket = listener.accept(); // í´ë¼ì´ì–¸íŠ¸ë¡œë¶€í„° ì—°ê²° ìš”ì²­ ëŒ€ê¸°
+			System.out.println("ì—°ê²°ë˜ì—ˆìŠµë‹ˆë‹¤.");
 			in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 			while(true)
 			{
-				String inputMessage = in.readLine(); // Å¬¶óÀÌ¾ğÆ®·ÎºÎÅÍ ÇÑ Çà ÀĞ±â, ¼ö½Ä
+				String inputMessage = in.readLine(); // í´ë¼ì´ì–¸íŠ¸ë¡œë¶€í„° í•œ í–‰ ì½ê¸°, ìˆ˜ì‹
 				if(inputMessage.equalsIgnoreCase("bye"))
 				{
-					System.out.println("Å¬¶óÀÌ¾ğÆ®¿¡¼­ ¿¬°áÀ» Á¾·áÇÏ¿´À½"); // ¹ŞÀº ¸Ş½ÃÁö¸¦ È­¸é¿¡ Ãâ·Â
-					break; // "bye"¸¦ ¹ŞÀ¸¸é ¿¬°á Á¾·á
+					System.out.println("í´ë¼ì´ì–¸íŠ¸ì—ì„œ ì—°ê²°ì„ ì¢…ë£Œí•˜ì˜€ìŒ"); // ë°›ì€ ë©”ì‹œì§€ë¥¼ í™”ë©´ì— ì¶œë ¥
+					break; // "bye"ë¥¼ ë°›ìœ¼ë©´ ì—°ê²° ì¢…ë£Œ
 				}
-				System.out.println(inputMessage); // ¹ŞÀº ¸Ş½ÃÁö¸¦ È­¸é¿¡ Ãâ·Â
-				String res = calc(inputMessage); // °è»ê, °è»ê °á°ú´Â res
-				out.write(res + "\n"); // °è»ê °á°ú ¹®ÀÚ¿­ Àü¼Û
+				System.out.println(inputMessage); // ë°›ì€ ë©”ì‹œì§€ë¥¼ í™”ë©´ì— ì¶œë ¥
+				String res = calc(inputMessage); // ê³„ì‚°, ê³„ì‚° ê²°ê³¼ëŠ” res
+				out.write(res + "\n"); // ê³„ì‚° ê²°ê³¼ ë¬¸ìì—´ ì „ì†¡
 				out.flush();
 			}
 		}
@@ -70,16 +70,16 @@ public class CalcServerEx
 			{
 				if(socket != null)
 				{
-					socket.close(); // Åë½Å¿ë ¼ÒÄÏ ´İ±â
+					socket.close(); // í†µì‹ ìš© ì†Œì¼“ ë‹«ê¸°
 				}
 				if(listener != null)
 				{
-					listener.close(); // ¼­¹ö ¼ÒÄÏ ´İ±â
+					listener.close(); // ì„œë²„ ì†Œì¼“ ë‹«ê¸°
 				}
 			}
 			catch(IOException e)
 			{
-				System.out.println("Å¬¶óÀÌ¾ğÆ®¿Í Ã¤ÆÃ Áß ¿À·ù°¡ ¹ß»ıÇß½À´Ï´Ù.");
+				System.out.println("í´ë¼ì´ì–¸íŠ¸ì™€ ì±„íŒ… ì¤‘ ì˜¤ë¥˜ê°€ ë°œìƒí–ˆìŠµë‹ˆë‹¤.");
 			}
 		}
 	}
